@@ -12,16 +12,10 @@ let rotationY = 0.5;
 let speed = 40;
 let animFrame;
 const texts = [
-'hello.',
+'Hello!',
 '(╯°□°）╯︵ ┻━┻',
-'CodePen <3',
-'{ JavaScript }',
-'We are the robots',
-'C:\\>',
-'Get creative!',
-'I live in a giant bucket',
-'sudo rm -rf /*',
-'Eat your vegetables'];
+'Join @normuxfit.web on insta for more',
+'@normuxfit.web'];
 
 let textIndex = 0;
 
