@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Text</title>
+    <link rel="stylesheet" href="css//animatedtext_styles.css">
+</head>
+<body>
+    <canvas width="682" height="281"></canvas>
+    <menu>
+        <form onsubmit="init(event)">
+        <input type="text" id="textInput" maxlength="90" placeholder="Random text">
+        <button>Run</button><br>
+        <button class="active" type="button" onclick="setSpeed(event, 40)">Fast</button>
+        <button type="button" onclick="setSpeed(event, 15)">Slow</button>
+        </form>
+    </menu>
+</body>
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+<script src="js/animatedtext_js.js"></script>
+</html>
+
+
